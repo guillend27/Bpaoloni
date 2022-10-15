@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>Beto Paoloni</title>
+    <link rel="icon" type="image/x-icon" href="assets/iconobeto.jpeg" />
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">  
+    
+<script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Beto Paoloni</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#ss">Discos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#disco">Ultimo Disco</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page"
+            href="#footer">Contactos</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+       
+       <img src="assets/beto1.webp" class="img-fluid" alt="Responsive image" width="100%" >
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Beto Paoloni </h1>
+            <p>Guitarrista , Cantante , Compositor</p>
+            <p><a class="btn btn-lg btn-primary" href="https://www.facebook.com/betopaoloni">Seguime!</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/b3.webp" class="img-fluid" alt="Responsive image" width="100%">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Discografia en Spotify</h1>
+            <p>Informacion adicional de beto paoloni</p>
+            <p><a class="btn btn-lg btn-primary" href="https://open.spotify.com/album/39fgprx9VRtUzFMOundvM5?si=y5RXSVkrTZ6ZdSI4Wr5fSg">Escuchalo!</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/beto3.webp" class="img-fluid" alt="Responsive image" width="100%">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Contrataciones en Toda Argentina</h1>
+            <p>Informacion adicional de beto paoloni</p>
+            <p><a class="btn btn-lg btn-primary" href="https://open.spotify.com/album/39fgprx9VRtUzFMOundvM5?si=y5RXSVkrTZ6ZdSI4Wr5fSg">Dale Like!</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden" >Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing" id="spotify">
+    <h1 id="ss"> Spotify</h1>
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="assets/sga1.jpeg"  class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+        <h2 class="fw-normal">Seguir Adelante</h2>
+        <p>Informacion adicional sobre el Disco de Seguir Adelante 2018</p>
+        <p><a class="btn btn-secondary" href="https://open.spotify.com/album/2OJi6O1DMJ1KE2RGHk91lW?si=iSMGMXvrSDaAipNgW2bysw">Escuchalo! &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="assets/equi.jpeg" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+        <h2 class="fw-normal">Equilibrio</h2>
+        <p>Informacion adicional sobre el Disco Equilibrio del 2020</p>
+        <p><a class="btn btn-secondary" href="https://open.spotify.com/album/7LynNUTahT1HDmCFmSnGb3?si=TyzQchptTNCed8R1dBuN8g">Escuchalo! &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="assets/sinb.jpeg" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+        <h2 class="fw-normal">Sin Brujula</h2>
+        <p>Informacion adicional sobre el Disco Sin Brujula 2021</p>
+        <p><a class="btn btn-secondary" href="https://open.spotify.com/album/7xuHGCzolcWVvpVviIzdqG?si=4Qn5rmw9SZ2ZjuP7OEQujw">Escuchalo! &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+</div>
+    <!-- START THE FEATURETTES -->
+<div class="conteiner" id="disco">
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">PERSISTENTE <span class="text-muted">Lo nuevo que se viene!</span></h2>
+        <p class="lead">aca va a contener informacion del ultimo disco de beto. persistente</p>
+      </div>
+      <div class="col-md-5">
+        <img src="assets/persistente.jpeg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+<footer>
+
+  <div class="container__footer" id="footer">
+    <div class="box__footer">
+      <div class="logo">
+        <img src="Images/logo-magtimus.png" alt="">
+      </div>
+      <div class="terms">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit cum cumque velit libero officiis
+          quam doloremque reprehenderit quae corporis! Delectus architecto officia praesentium atque laudantium, nam
+          deleniti sapiente deserunt.</p>
+      </div>
+    </div>
+
+    <div class="box__footer">
+      <h2>Discografia</h2>
+      <a href="https://open.spotify.com/album/2OJi6O1DMJ1KE2RGHk91lW?si=iSMGMXvrSDaAipNgW2bysw">Seguir Adelante</a>
+      <a href="https://open.spotify.com/album/7LynNUTahT1HDmCFmSnGb3?si=TyzQchptTNCed8R1dBuN8g">Equilibrio</a>
+      <a href="https://open.spotify.com/album/7xuHGCzolcWVvpVviIzdqG?si=4Qn5rmw9SZ2ZjuP7OEQujw">Sin Brujula</a>
+      <a href="https://open.spotify.com/album/39fgprx9VRtUzFMOundvM5?si=otChvJhvRdqalpn-dic9lA">Persistente</a>
+    </div>
+
+    <div class="box__footer">
+      <h2>Redes Sociales</h2>
+      <a href="https://www.facebook.com/betopaoloni"> <i class="fab fa-facebook-square"></i> Facebook</a>
+      <a href="https://twitter.com"><i class="fab fa-twitter-square"></i> Twitter</a>
+      <a href="https://linkedin.com"><i class="fab fa-linkedin"></i> Linkedin</a>
+      <a href="https://www.instagram.com/norbertopaoloni/?next=%2F"><i class="fab fa-instagram-square"></i> Instagram</a>
+    </div>
+
+  </div>
+
+  <div class="box__copyright">
+    <hr>
+    <p>Todos los derechos reservados © 2022 <b>Delta G. FrontEnd</b></p>
+  </div>
+</footer>
+  
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
