@@ -36,7 +36,7 @@ body {
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
 /* rtl:begin:ignore */
@@ -49,6 +49,10 @@ body {
 #ss {
   text-align: center;
   padding-bottom: 1rem;
+}
+
+#recitales {
+  margin-bottom: 1rem;
 }
 /* Featurettes
 ------------------------- */
@@ -167,4 +171,31 @@ footer {
   border: none;
   height: 1px;
   background-color: #7a7a7a;
+}
+
+/*formulario*/
+
+.form {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  padding: 10px 10px;
+  box-sizing: border-box;
+
+}
+ input , textarea {
+  width: 80%;
+  margin-bottom: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+
+}
+textarea {
+  min-height:100px ;
+  max-height: 100px;
+}
+
+#boton1 {
+  background-color: #343434;
+  color:#f9f5f5;
 }
